@@ -9,4 +9,11 @@ html {
     color: #555;
     font-family: "Lato", "Aril", sans-serif;
     font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
 }
