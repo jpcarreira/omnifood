@@ -109,6 +109,35 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    font-size: 120%;
+    margin-top: -2px;
+    margin-right: 10px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+    border-bottom: 1px solid #e67e22;
+    color: #e67e22;
+    padding-bottom: 1px;
+    text-decoration: none;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    border-bottom: 1px solid transparent;
+    color: #555;
+}
+
 /* Buttons */
 
 .btn:link,
@@ -301,4 +330,23 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+/* --------------------------------------------------------- */
+/* Cities */
+/* --------------------------------------------------------- */
+
+.box img {
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
