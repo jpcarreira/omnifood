@@ -82,4 +82,14 @@ $(document).ready(function () {
         offset: "50%"
     });
 
+    $(".js--nav-icon").click(function () {
+        $(".js--main-nav").slideToggle(200);
+
+        var icon = $(".js--nav-icon").children().first();
+        if (icon.attr("name") === "menu") {
+            icon.attr("name", "close");
+        } else {
+            icon.attr("name", "menu");
+        }
+    });
 });
